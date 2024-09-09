@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css">
+    <link
+      rel="stylesheet"
+      href="./asset/fonts/themify-icons/themify-icons.css"
+    />
+    
+  </head>
+  <body>
+    <!-- begin bar section -->
+    <header id="bar_section">
+      <ul id="nav">
+        <img src="./asset/img/myself_img.JPEG" alt="my avatar" width="100%" />
+        <a href="#header_section" class="text_align--center">
+          <i class="ti-home text--white font_size--xxl"></i>
+          <p class="text--white font_size--m">home</p></a
+        >
+        <a href="#about_me_section" class="text_align--center">
+          <i class="ti-user text--white font_size--xxl"></i>
+          <p class="text--white font_size--m">about</p>
+        </a>
+        <a href="#my_project" class="text_align--center">
+          <i class="ti-archive text--white font_size--xxl"></i>
+          <p class="text--white font_size--m">projects</p>
+        </a>
+        <a href="#contact" class="text_align--center">
+          <i class="ti-email text--white font_size--xxl"></i>
+          <p class="text--white font_size--m">contact</p>
+        </a>
+      </ul>
+    </header>
+    <!-- beggin page Section -->
+    <main>
+      <div id="page_section">
+        <!-- begin header section -->
+        <header id="header_section" class="text--black text_align--center">
+          <div class="header_section__img">
+            <img src="./asset/img/myself_img.JPEG" alt="my image" width="95%" />
+            <div class="header_section___des text_align--center padding-t-b-32">
+              <h1 class="font_size--jumbo"><span>I'm Minh Tu</span></h1>
+              <p class="font_size--xxl">
+                <span>Web desigher, Fontend and Backend</span>
+              </p>
+            </div>
+          </div>
+        </header>
+
+        <!-- begin about me section -->
+        <section
+          id="about_me_section"
+          class="font_size--m margin-l-r padding-2p5em"
+        >
+          <div class="my_name padding-t-20">
+            <h2>My name</h2>
+            <p class="text--gray font-weight--boilder">
+              Some text about me. Some text about me. I am lorem ipsum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <section class="my_skill padding-t-20">
+            <h2>My skill</h2>
+            <div class="skills">
+              <div class="column">
+                <h3>Good knowledge</h3>
+                <ul class="text--gray font-weight--boilder">
+                  <li>HTML5</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>SQL</li>
+                </ul>
+              </div>
+              <div class="column">
+                <h3>Basic knowledge</h3>
+                <ul class="text--gray font-weight--boilder">
+                  <li>jQuery</li>
+                  <li>NodeJS</li>
+                  <li>MongoDB</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section id="my_project" class="padding-t-20">
+            <h2>My projects</h2>
+            <div class="project">
+              <ul>
+                <li>
+                  Canva Palace Website:
+                  <p class="project__des">
+                    This is my first project. It is a static website coded with
+                    basic HTML/CSS/JS. It includes an introduction to the Canva
+                    Palace band. Sourced from F8
+                  </p>
+                </li>
+                <li>
+                  My CV
+                  <p class="project__des">
+                    This is my CV coded in pure HTML/CSS
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section id="contact">
+            <h2>Contact me</h2>
+            <div class="contact_section">
+              <div class="contact_section__info">
+                <p class="contact_section__des">
+                  <i class="font_size--xxl ti-location-pin"></i>Ha Noi,Viet Nam
+                </p>
+                <p class="contact_section__des">
+                  <i class="font_size--xxl ti-headphone"></i>Phone:
+                  <a href="tel:+00 797860803">0797860803</a>
+                </p>
+                <p class="contact_section__des">
+                  <i class="font_size--xxl ti-email"></i>Email:
+                  <a href="mailto:maiminhtu130803@gmail.com"
+                    >maiminhtu130803@gmail.com</a
+                  >
+                </p>
+              </div>
+              <div class="contact_section__layer padding-t-20">
+                <p>Let's get in touch and send me a message:</p>
+                <form action="">
+                  <input
+                    type="text"
+                    name=""
+                    id="textbox"
+                    class="form_control full-witdh"
+                    placeholder="Name"
+                  />
+                  <input
+                    type="email"
+                    name=""
+                    id="textbox"
+                    class="form_control full-witdh"
+                    placeholder="Email"
+                  />
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    class="form_control full-witdh"
+                    placeholder="Message"
+                  />
+                  <buton class="btn_submit">
+                    <i class="ti-thumb-up"></i>
+                    SEND MESSAGE
+                  </buton>
+                </form>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <!-- begin footer section -->
+    <footer id="footer_section">
+      <div
+        class="footer_section__info margin-l-r font_size--m padding-2p5em line_height--en"
+      >
+        <div class="logo_media">
+          <a href=""><i class="ti-facebook"></i></a>
+          <a href=""><i class="ti-instagram"></i></a>
+          <a href=""><i class="ti-twitter-alt"></i></a>
+          <a href=""><i class="ti-linkedin"></i></a>
+          <a href=""><i class="ti-github"></i></a>
+        </div>
+        <div class="resoure">Powered by <a href="">Tevor</a></div>
+      </div>
+    </footer>
+  </body>
+</html>
